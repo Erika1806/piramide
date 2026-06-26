@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="calcular apotema teorema de pitagoras piramide"/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-24 02:52:04 p.&#160;m."/>
+        <attribute name="created" value="TGVub3ZvO0RFU0tUT1AtVEdNRjdNQzsyMDI2LTA2LTI0OzAyOjQ4OjM0IHAuwqBtLjszMzE0"/>
+        <attribute name="edited" value="TGVub3ZvO0RFU0tUT1AtVEdNRjdNQzsyMDI2LTA2LTI0OzAyOjUyOjA0IHAuwqBtLjsxOzM0MTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, apotema" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="apotema" expression="sqrt((a*a)+(b*b))"/>
+            <output expression="apotema" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
