@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="trabajo de calcular area de piramide cn apothema"/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-24 02:57:35 p.&#160;m."/>
+        <attribute name="created" value="TGVub3ZvO0RFU0tUT1AtVEdNRjdNQzsyMDI2LTA2LTI0OzAyOjUyOjMxIHAuwqBtLjszMzA2"/>
+        <attribute name="edited" value="TGVub3ZvO0RFU0tUT1AtVEdNRjdNQzsyMDI2LTA2LTI0OzAyOjU3OjM1IHAuwqBtLjsxOzM0MjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="perimetro, apotema, area" type="Real" array="False" size=""/>
+            <input variable="perimetro"/>
+            <input variable="apotema"/>
+            <assign variable="area" expression="(perimetro * apotema) / 2"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
